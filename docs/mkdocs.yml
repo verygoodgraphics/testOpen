@@ -1,0 +1,6 @@
+site_name: testOpen
+site_url: https://elff1.github.io/testOpen/
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
