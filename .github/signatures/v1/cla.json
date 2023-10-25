@@ -1,3 +1,12 @@
 {
-   "signedContributors": []
+  "signedContributors": [
+    {
+      "name": "elvinzz",
+      "id": 148959130,
+      "comment_id": 1779001850,
+      "created_at": "2023-10-25T10:51:36Z",
+      "repoId": 571931025,
+      "pullRequestNo": 7
+    }
+  ]
 }
