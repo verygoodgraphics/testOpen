@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   CLAAssistant:
-    if: github.repository == 'elff1/testOpen'
+    if: github.repository == 'verygoodgraphics/testOpen'
     runs-on: ubuntu-latest
     steps:
       - name: "CLA Assistant"
@@ -27,7 +27,7 @@ jobs:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         with:
           path-to-signatures: '.github/signatures/v1/cla.json'
-          path-to-document: 'https://github.com/elff1/testOpen/blob/main/.github/CLA.md' # e.g. a CLA or a DCO document
+          path-to-document: 'https://github.com/verygoodgraphics/testOpen/blob/main/.github/CLA.md' # e.g. a CLA or a DCO document
           # branch should not be protected
           branch: 'main'
           allowlist: harry75369,gaimanjing,yslib,szn409,elff1,MaybeMonad,bot*
